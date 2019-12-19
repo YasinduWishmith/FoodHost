@@ -6,8 +6,11 @@ import VueAxios from 'vue-axios'
 import Router from './routes.js'
 import { LayoutPlugin } from 'bootstrap-vue'
 import VueRx from 'vue-rx';
+import Rx from 'rxjs/Rx';
 
-Vue.use(VueRx);
+
+
+Vue.use(VueRx,Rx);
 Vue.use(LayoutPlugin)
 
 
