@@ -20,6 +20,7 @@
 <script>
 import { EventBus } from "../EventBus";
 import { Observable } from 'rxjs/Observable'
+// import 'rxjs/add/observable/interval'
 import 'rxjs/add/observable/interval'
 
 export default {
