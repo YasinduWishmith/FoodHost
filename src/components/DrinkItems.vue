@@ -13,14 +13,12 @@
         />
       </div>
     </div>
-    <h1 style="z-index:100">{{this.count}}</h1>
   </b-container>
 </template>
 
 <script>
 import { EventBus } from "../EventBus";
 import { Observable } from 'rxjs/Observable'
-// import 'rxjs/add/observable/interval'
 import 'rxjs/add/observable/interval'
 
 export default {
